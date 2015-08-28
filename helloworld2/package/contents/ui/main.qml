@@ -34,6 +34,7 @@ Item {
 
     property bool iconChanged: false
 
+    Plasmoid.icon: connectionIconProvider.connectionTooltipIcon
     Plasmoid.toolTipSubText: networkStatus.activeConnections
 
     KCoreAddons.KUser {
@@ -42,6 +43,10 @@ Item {
 
     PlasmaNM.NetworkStatus {
         id: networkStatus
+    }
+
+    PlasmaNM.ConnectionIcon {
+        id: connectionIconProvider
     }
 
     Image {
