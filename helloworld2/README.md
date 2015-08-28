@@ -1,6 +1,7 @@
 ## Reference
 https://techbase.kde.org/Development/Tutorials/Plasma2/QML2/API
 [plasma-desktop kickoff applet](https://projects.kde.org/projects/kde/workspace/plasma-desktop/repository/revisions/master/show/applets/kickoff)
+[plasma-nm](https://projects.kde.org/projects/kde/workspace/plasma-nm/repository)
 
 ## Architecture
 ```
@@ -24,7 +25,10 @@ and X-KDE-PluginInfo-Category, other keys just like traditional desktop file.
 Please read [QMLBook](http://qmlbook.github.io/) to be familiar with the basic QML usage.
 And I am also learning [Plasma Framework](https://projects.kde.org/projects/frameworks/plasma-framework/repository/revisions/master/show/src)
 
-## plasmawindowed
-```
-plasmawindowed org.kde.plasma.helloworld2
-```
+## screenshot
+
+![Add Plasma Applet](https://github.com/xiangzhai/plasma-helloworld/blob/master/res/plasma-applet-helloworld-screenshot1.png)
+
+![Plasma NetworkManager integration](https://github.com/xiangzhai/plasma-helloworld/blob/master/res/plasma-applet-helloworld-screenshot4.png)
+
+![Change Plasma Icon](https://github.com/xiangzhai/plasma-helloworld/blob/master/res/plasma-applet-helloworld-screenshot5.png)

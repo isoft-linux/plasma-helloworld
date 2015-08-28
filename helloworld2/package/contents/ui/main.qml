@@ -18,18 +18,30 @@
 
 import QtQuick 2.0
 import QtQuick.Layouts 1.0
+import QtQuick.Controls 1.1
+import org.kde.plasma.plasmoid 2.0
 import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.plasma.components 2.0 as PlasmaComponents
 import org.kde.plasma.extras 2.0 as PlasmaExtras
 import org.kde.kcoreaddons 1.0 as KCoreAddons               // KUser
 import org.kde.kquickcontrolsaddons 2.0                     // KCMShell
+import org.kde.plasma.networkmanagement 0.2 as PlasmaNM
 
 Item {
+    id: root
     Layout.minimumWidth: 200
     Layout.minimumHeight: 300
 
+    property bool iconChanged: false
+
+    Plasmoid.toolTipSubText: networkStatus.activeConnections
+
     KCoreAddons.KUser {
         id: kuser
+    }
+
+    PlasmaNM.NetworkStatus {
+        id: networkStatus
     }
 
     Image {
@@ -75,6 +87,25 @@ Item {
             right: parent.right
             leftMargin: units.gridUnit
             rightMargin: units.gridUnit
+        }
+    }
+
+    Button {
+        id: hidePopupBtn
+        text: "hidePopup"
+        anchors.top: faceIcon.bottom
+        onClicked: {
+            plasmoid.expanded = false;
+        }
+    }
+
+    Button {
+        id: changeIconBtn
+        text: "changeIcon"
+        anchors.top: hidePopupBtn.bottom
+        onClicked: {
+            root.iconChanged = !root.iconChanged;
+            plasmoid.icon = root.iconChanged ? "security-high" : "security-low";
         }
     }
 }
