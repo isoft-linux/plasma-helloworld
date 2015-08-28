@@ -20,12 +20,12 @@ Important keys: X-Plasma-MainScript, X-KDE-PluginInfo-Name, X-KDE-ServiceTypes
 and X-KDE-PluginInfo-Category, other keys just like traditional desktop file.
 
 ## package/contents/ui/main.qml
-Please read [QMLBook] (http://qmlbook.github.io/) to be familiar with it.
+Please read [QMLBook](http://qmlbook.github.io/) to be familiar with the basic QML usage.
 
 ## screenshot
 
-![ScreenShot](https://raw.github.com/xiangzhai/plasma-helloworld/master/res/plasma-helloworld-screenshot1.png)
+![Add Plasma Applet](https://raw.github.com/xiangzhai/plasma-helloworld/blob/master/res/plasma-applet-helloworld-screenshot1.png)
 
-![ScreenShot](https://raw.github.com/xiangzhai/plasma-helloworld/master/res/plasma-helloworld-screenshot2.png)
+![Plasma Applet list](https://raw.github.com/xiangzhai/plasma-helloworld/blob/master/res/plasma-helloworld-screenshot2.png)
 
-![ScreenShot](https://raw.github.com/xiangzhai/plasma-helloworld/master/res/plasma-helloworld-screenshot3.png)
+![Just Hello World](https://raw.github.com/xiangzhai/plasma-helloworld/blob/master/res/plasma-helloworld-screenshot3.png)
