@@ -17,5 +17,7 @@ include(ECMMarkAsTest)
 include(FeatureSummary)
 
 add_subdirectory(helloworld1)
+add_subdirectory(helloworld2)
+add_subdirectory(po)
 
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)

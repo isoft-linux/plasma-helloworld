@@ -24,3 +24,4 @@ sudo make install
 
 ## Examples
 * [helloworld1](https://github.com/xiangzhai/plasma-helloworld/tree/master/helloworld1) - pure QML plasma applet example
+* [helloworld2](https://github.com/xiangzhai/plasma-helloworld/tree/master/helloworld2) - import plasma declarative plugin

@@ -22,11 +22,6 @@ and X-KDE-PluginInfo-Category, other keys just like traditional desktop file.
 ## package/contents/ui/main.qml
 Please read [QMLBook](http://qmlbook.github.io/) to be familiar with the basic QML usage.
 
-## plasmawindowed
-```
-plasmawindowed org.kde.plasma.helloworld1
-```
-
 ## screenshot
 
 ![Add Plasma Applet](https://github.com/xiangzhai/plasma-helloworld/blob/master/res/plasma-applet-helloworld-screenshot1.png)

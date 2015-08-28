@@ -25,6 +25,6 @@ Item {
     Layout.minimumHeight: 300
 
     PlasmaComponents.Label {
-        text: "Hello World"
+        text: i18n("Hello World")
     }
 }
