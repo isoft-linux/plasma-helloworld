@@ -26,6 +26,6 @@ Please read [QMLBook](http://qmlbook.github.io/) to be familiar with the basic Q
 
 ![Add Plasma Applet](https://github.com/xiangzhai/plasma-helloworld/blob/master/res/plasma-applet-helloworld-screenshot1.png)
 
-![Plasma Applet list](https://github.com/xiangzhai/plasma-helloworld/blob/master/res/plasma-helloworld-screenshot2.png)
+![Plasma Applet list](https://github.com/xiangzhai/plasma-helloworld/blob/master/res/plasma-applet-helloworld-screenshot2.png)
 
-![Just Hello World](https://github.com/xiangzhai/plasma-helloworld/blob/master/res/plasma-helloworld-screenshot3.png)
+![Just Hello World](https://github.com/xiangzhai/plasma-helloworld/blob/master/res/plasma-applet-helloworld-screenshot3.png)
