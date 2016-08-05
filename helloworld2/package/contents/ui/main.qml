@@ -100,7 +100,8 @@ Item {
         text: "hidePopup"
         anchors.top: faceIcon.bottom
         onClicked: {
-            plasmoid.expanded = false;
+            //plasmoid.expanded = false;
+            plasmoid.status = PlasmaCore.Types.PassiveStatus;
         }
     }
 

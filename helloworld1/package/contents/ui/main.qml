@@ -24,7 +24,17 @@ Item {
     Layout.minimumWidth: 200
     Layout.minimumHeight: 300
 
+    ListModel {
+        id: testModel
+
+        // FIXME: ki18n lead to QTBUG-16289 https://bugreports.qt.io/browse/QTBUG-16289
+        // Qt developers did *NOT* fixed the issue 'ListElement: cannot use script 
+        // for property value' until Qt5.4, that means
+        // ListElement { name: qsTr("") } also lead to such issue before Qt5.4!
+        ListElement { name: i18n("Leslie Zhai") }
+    }
+
     PlasmaComponents.Label {
-        text: "Hello World"
+        text: i18n("Hello World")
     }
 }
